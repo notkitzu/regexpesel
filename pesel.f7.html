@@ -1,0 +1,44 @@
+<style>
+  .box
+  {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .kolor
+  {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    transform: translateX(245px) translateY(-37px);
+  }
+
+  input
+  {
+    height: 10px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+</style>
+<template>
+  <div class="page" data-name="pesel">
+    <div class="page-content login-screen-content">
+        <div class="box">
+          <h1>Podaj pesel</h1>
+          <input id="pesel" placeholder="Pesel"><div class="kolor" id="kolor"></div>
+        </div>   
+    </div>
+  </div>
+</template>
+<script>
+export default {};
+</script>
